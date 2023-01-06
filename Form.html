@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment RFA</title>
+
+    <style>
+        *{
+            color:black;
+            background-color: rgb(222, 208, 206);
+            text-align:center;
+            border: 1px solid;
+            border-radius: 5px;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="style">
+    <form action="https://www.w3schools.com/html/html_forms.asp">
+        <h3>Enter your name :</h3>
+        
+        <label for="fname">First Name</label>
+        <br>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="Lname">Last Name</label>
+        <br>
+        <input type="text" id="lname" name="lname">
+        <br><br>
+
+        <h3>Select your gender :</h3>
+        
+
+        <input type="radio" id="gender" >
+        <br>
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="gender">
+        <br>
+        <label for="female">Female</label>
+        <br><br><br>
+
+        <h3>Select your course :</h3>
+        <input type="checkbox" id="fsd"><br>
+        <label for="fsd">Full Stack Web Developer</label><br>
+        <input type="checkbox" id="ds"><br>
+        <label for="ds">Data Scientist</label>
+        <br><br><br>
+        
+        <label for="country">Choose Your Country :</label><br>
+        <select name="country" id="country">
+            <option value="select">Select</option>
+            <option value="india">India</option>
+            <option value="india">America</option>
+            <option value="india">Australia</option>
+            <option value="india">China</option>
+            <option value="india">Africa</option>
+        </select>
+        <br><br><br>
+
+
+
+        <label for="self">Self-Description</label>
+        <br>
+        <textarea name="self-description"  id="self" cols="30" rows="10"></textarea>
+        <br><br>
+
+        <label for="myfile">Upload Your Resume Here :</label><br>
+        <input type="file" id="myfile" name="myfile">
+        <br><br><br>
+
+
+        <h3>Click below to submit/reset your form :</h3>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</div>
+</body>
+</html>

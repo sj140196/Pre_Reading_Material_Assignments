@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Tutorial</title>
+
+    <style>
+        
+     
+
+        
+        .image{
+            height: auto;
+            width: 100%;
+            border-radius: 10px;
+            border: 5px dotted;
+            padding: 10px;
+        }
+
+        #table,th,td
+        {
+            border: 1px dotted;
+            border-radius: 4px;
+            text-align: center;
+            table-layout: center;
+            
+        }
+
+        #table
+        {
+            margin-left: 15cm;
+            
+        }
+        .button
+        {
+            border-radius: 4px;
+            background-color: rgb(24, 224, 157);
+            text-align: center;
+            border-bottom-left-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            font-size: 24px;
+            
+        }
+
+        #next
+        {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+        
+       .h1{
+        padding: 10px;
+        margin-left: 10cm;
+        border-radius: 6px;
+        border-color: greenyellow;
+        border: 6px solid greenyellow;
+        font-size: 3rem;
+        
+        width: 100vw;
+       }
+
+       h2{
+        padding: 10px;
+        margin-left: 10cm;
+        border-radius: 6px;
+        border-color: #171b17;
+        border: 3px solid;
+        font-size: 3rem;
+        
+        width: 100vw;
+       }
+    </style>
+</head>
+<body>
+    <h1>This tutorial is for learning CSS</h1>
+    <img src="bg.jpg" alt="bg.jpg" class="image">
+    <br><br>
+
+    <div style="overflow-x:auto;">
+    <table id="table">
+        <tr>
+            <th>Movie-Name</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>Drishyam</td>
+            <td>Hindi</td>
+        </tr>
+        <tr>
+            <td>KGF</td>
+            <td>Tamil</td>
+        </tr>
+        <tr>
+            <td>Kantara</td>
+            <td>Kannad</td>
+        </tr>
+    </table>
+</div>
+
+<br><br>
+<h1 class="h1">This is for padding and border</h1>
+<br><br>
+
+<h2>This is for buttons</h2>
+<br><br>
+
+<input type="button" value="Click Here" class="button">
+<button   id="next">Next</button>
+<a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_basic" class="button">Click Here</a>
+</body>
+</html>
